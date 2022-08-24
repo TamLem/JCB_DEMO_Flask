@@ -12,6 +12,11 @@ def get_df():
 	df['b'] = df['a'] % 10
 	return df
 
+@app.route('/')
+def index():
+	#serve html page
+	return render_template('index.html',  title='Home')
+
 @app.route('/data')
 def data():
 	#return raw data as json	
