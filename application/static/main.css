@@ -11,3 +11,9 @@
 .btn-div {
 	margin-top: 100px;
 }
+
+#api_error {
+	color: red;
+	text-align: center;
+	display: none;
+}
